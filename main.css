@@ -1,0 +1,171 @@
+h1{
+    font-size: 2.3cm;
+    color: black;
+}
+body{
+    background-color: azure;
+}
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+span{
+    color: red;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+.topnav a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav input[type="text"]{
+    float: right;
+    display: block;
+    text-align: right;
+    width: 130px;
+    margin: 0;
+    padding: 14px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    
+}
+.topnav input[type="text"] {
+    border: 1px solid #ccc;
+}
+.topnav input[type="text"]:focus {
+    width: 40%;
+}
+
+h3.bottom{
+    text-align: center;
+    color: white;
+    background-color: #333;
+    overflow: hidden;
+    padding: 14px 16px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+}
+
+
+/*for contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
+.form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 900px!important;
+    left: 0;
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+    font-size: 1em;
+}
+
+
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+@media screen and (max-width: 650px) {
+    .column{
+        width: 100%;
+        display: block;
+    }
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title{
+    color: grey;
+}
+
+.button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.button:hover {
+    background-color: #555;
+}
